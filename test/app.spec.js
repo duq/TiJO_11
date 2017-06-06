@@ -8,14 +8,3 @@ describe('getDescendingNumbers', function (){
         expect(app.getDescendingNumbers(15, 1)).to.eql('15 14 13 12 11 10 9 8 7 6 5 4 3 2 1');
     });
 });
-describe('isItMario?', function (){
-    it('not capital -> capital. mario -> Mario', function ()    {
-        expect(itsAMeMario('mario')).to.eql('Mario');
-    });
-    it('not capital -> not capital. luigi -> luigi', function ()    {
-        expect(itsAMeMario('luigi')).to.eql('luigi');
-    });
-    it('capital -> capital. Mario -> Mario', function ()    {
-        expect(itsAMeMario('Mario')).to.eql('Mario');
-    });
-});

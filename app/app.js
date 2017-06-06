@@ -12,14 +12,14 @@ function getDescendingNumbers(start, stop)
 
 function itsAMeMario(name)
 {
-    if(name = "mario'){
-        name = Mario;
+    if(name === 'mario'){
+        name = 'Mario';
     }
     return name;
 
 }
 
 module.exports = {
-    getDescendingNumbers: getDescendingNumbers
+    getDescendingNumbers: getDescendingNumbers,
     itsAMeMario: itsAMeMario
 };

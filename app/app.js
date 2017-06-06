@@ -10,6 +10,16 @@ function getDescendingNumbers(start, stop)
     return result;
 }
 
+function itsAMeMario(name)
+{
+    if(name = "mario'){
+        name = Mario;
+    }
+    return name;
+
+}
+
 module.exports = {
     getDescendingNumbers: getDescendingNumbers
+    itsAMeMario: itsAMeMario
 };
